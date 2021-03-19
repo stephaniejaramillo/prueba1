@@ -1,0 +1,289 @@
+@font-face{
+	font-family:grado8;
+	src: url(arte.ttf);
+}
+@font-face{
+	font-family:grado7;
+	src: url(wash.ttf);
+}
+@font-face{
+	font-family:grado6;
+	src: url(fresh.ttf);
+}
+.papa{
+	position: absolute;
+	top: 11px;
+	left: 1600px;
+	width: 2500px;
+	height: 2900px;
+	background: red;
+	border: solid 10px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: grado8;
+	font-size: 200px;
+	color: #F6D14B;
+}
+.letras{
+	position: absolute;
+	left: 820px;
+	top: 200px;
+}
+.letras2{
+	position: absolute;
+	font-size: 100px;
+	left: 790px;
+	top: 430px;
+	font-family: grado7;
+}
+.letras3{
+	position: absolute;
+	font-size: 250px;
+	left: 980px;
+	top: 500px;
+	font-family: grado6;
+	color: white;
+}
+.letras4{
+	position: absolute;
+	font-size: 400px;
+	left: 500px;
+	top: 600px;
+	font-family: grado6;
+	color: white;
+}
+.letras5{
+	position: absolute;
+	font-size: 100px;
+	left: 790px;
+	top: 1000px;
+	font-family: grado7;
+}
+.letras6{
+	position: absolute;
+	font-size: 100px;
+	left: 945px;
+	top: 1100px;
+	font-family: grado7;
+}
+.letras7{
+	position: absolute;
+	font-size: 80px;
+	left: 2000px;
+	top: 1500px;
+	color: white;
+}
+.letras8{
+	position: absolute;
+	font-size: 80px;
+	left: 1935px;
+	top: 1700px;
+	color: white;
+}
+.letras9{
+	position: absolute;
+	font-size: 80px;
+	left: 1905px;
+	top: 1880px;
+	color: white;
+}
+.letras10{
+	position: absolute;
+	font-size: 80px;
+	left: 1950px;
+	top: 2050px;
+	color: white;
+}
+.letras11{
+	position: absolute;
+	font-size: 80px;
+	left: 1880px;
+	top: 2220px;
+	color: white;
+}
+.letras12{
+	position: absolute;
+	font-size: 130px;
+	left: 175px;
+	top: 1980px;
+	font-family: grado7;
+}
+.letras13{
+	position: absolute;
+	font-size: 100px;
+	left: 200px;
+	top: 2100px;
+	font-family: grado7;
+	color: black;
+}
+.letras14{
+	position: absolute;
+	font-size: 100px;
+	left: 220px;
+	top: 2200px;
+	font-family: grado7;
+}
+.letras15{
+	position: absolute;
+	font-size: 100px;
+	left: 110px;
+	top: 2300px;
+	font-family: grado7;
+}
+.letras16{
+	position: absolute;
+	font-size: 100px;
+	left: 125px;
+	top: 2400px;
+	font-family: grado7;
+}
+.letras17{
+	position: absolute;
+	font-size: 100px;
+	left: 125px;
+	top: 2450px;
+	font-family: grado7;
+}
+.letras18{
+	position: absolute;
+	font-size: 100px;
+	left: 240px;
+	top: 2540px;
+	font-family: grado7;
+}
+.hijo{
+	position: absolute;
+	width: 2000px;
+	height: 80px;
+	top: 20px;
+	left: 250px;
+	background: #F6D14B;
+}
+.hijo2{
+	position: absolute;
+	width: 2000px;
+	height: 80px;
+	top: 2798px;
+	left: 250px;
+	background: #F6D14B;
+}
+.hijo3{
+	position: absolute;
+	width: 600px;
+	height: 200px;
+	top: 1970px;
+	left: 60px;
+	background: #F6D14B;
+	border-radius: 100px;
+}
+.foto{
+	position: absolute;
+	top: 1500px;
+	left: 900px;
+	width: 1000px;
+	height: 800px;
+	background: url("tambor.png");
+	background-size: cover;
+	transform: rotate(10deg);
+}
+.foto2{
+	position: absolute;
+	top: 1000px;
+	left: 750px;
+	width: 1200px;
+	height: 900px;
+	background: url("palos.png");
+	background-size: cover;
+	transform: rotate(-130deg);
+}
+.foto3{
+	position: absolute;
+	top: 1700px;
+	left: 30px;
+	width: 1600px;
+	height: 650px;
+	background: url("guitarra.png");
+	background-size: cover;
+	transform: rotate(-130deg);
+}
+.foto4{
+	position: absolute;
+	top: 300px;
+	left: 1610px;
+	width: 900px;
+	height: 900px;
+	background: url("flores2.png");
+	background-size: cover;
+	transform: rotate(-40deg);
+}
+.foto10{
+	position: absolute;
+	top: 260px;
+	left: -40px;
+	width: 900px;
+	height: 900px;
+	background: url("flores2.png");
+	background-size: cover;
+	transform: rotate(120deg);
+}
+.foto5{
+	position: absolute;
+	top: 1450px;
+	left: 2260px;
+	width: 200px;
+	height: 200px;
+	background: url("pepe.png");
+	background-size: cover;
+	border-radius: 2000px
+}
+.foto6{
+	position: absolute;
+	top: 1620px;
+	left: 2260px;
+	width: 200px;
+	height: 200px;
+	background: url("coco.png");
+	background-size: cover;
+	border-radius: 2000px
+}
+.foto7{
+	position: absolute;
+	top: 1800px;
+	left: 2260px;
+	width: 200px;
+	height: 200px;
+	background: url("arar.png");
+	background-size: cover;
+	border-radius: 2000px
+}
+.foto8{
+	position: absolute;
+	top: 1980px;
+	left: 2260px;
+	width: 200px;
+	height: 200px;
+	background: url("bobo.png");
+	background-size: cover;
+	border-radius: 2000px
+}
+.foto9{
+	position: absolute;
+	top: 2160px;
+	left: 2260px;
+	width: 200px;
+	height: 200px;
+	background: url("venven.png");
+	background-size: cover;
+	border-radius: 2000px
+}
+.foto11{
+	position: absolute;
+	top: 1200px;
+	left: 1400px;
+	width: 450px;
+	height: 450px;
+	background: url("pito.png");
+	background-size: cover;
+	transform: rotate(-20deg);
+}
